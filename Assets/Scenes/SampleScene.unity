@@ -135,8 +135,8 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 61668630}
   serializedVersion: 4
-  m_Mass: 1
-  m_Drag: 0
+  m_Mass: 1.5
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -166,9 +166,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c102e292147a7048b1283512cbe3be7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forwardSpeed: 25
+  forwardSpeed: 40
   horizontalSpeed: 6
-  jumpForce: 6
+  jumpForce: 9
 --- !u!4 &61668640 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 110553783931466058, guid: c478383cd355d9443b44181f12a26f1e, type: 3}
